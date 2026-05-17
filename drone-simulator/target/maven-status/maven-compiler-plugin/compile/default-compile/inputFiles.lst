@@ -1,7 +1,13 @@
-C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\DisplayWorker.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\client\ConfigurationProvider.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\client\DroneClient.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\client\FileConfigurationProvider.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\concurrent\DisplayWorker.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\concurrent\DroneWorker.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\concurrent\SimulatorConcurrent.java
 C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\Drone.java
-C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\DroneWorker.java
 C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\FileReader.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\Main.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\server\DroneServer.java
+C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\server\ServerConnectionHandler.java
 C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\SimulatorBasic.java
-C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\SimulatorConcurrent.java
 C:\Users\user\Desktop\projet_java\drone-simulator\src\main\java\com\drone\simulator\SimulatorMap.java

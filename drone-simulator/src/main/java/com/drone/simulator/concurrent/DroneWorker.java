@@ -1,8 +1,5 @@
 package com.drone.simulator.concurrent;
 
-// Importer les classes du package principal
-import com.drone.simulator.Drone;
-import com.drone.simulator.SimulatorMap;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,9 +1,5 @@
 package com.drone.simulator.concurrent;
 
-// Importer les classes du package principal
-import com.drone.simulator.Drone;
-import com.drone.simulator.SimulatorMap;
-
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -38,7 +34,7 @@ public class DisplayWorker extends Thread {
 
                 // Afficher les infos en haut
                 System.out.println("================================");
-                System.out.println("  Simulateur de Drones - V2   ");
+                System.out.println("  Simulateur de Drones   ");
                 System.out.println("================================");
 
                 // Afficher la carte
