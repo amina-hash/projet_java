@@ -64,19 +64,34 @@ Pour lancer le client après avoir démarré le serveur :
 java -cp target/classes com.drone.simulator.client.DroneClient
 ```
 
-## Format du fichier de configuration
+## Format des fichiers de configuration
 
-Le fichier `drones.txt` doit respecter ce format :
+### `drones.txt` (Modes Basique et Concurrent)
 
 - Première ligne : `largeur hauteur`
-- Ligne suivante : une définition de drone par ligne
+- Lignes suivantes : une définition de drone par ligne
 
 Exemple :
 
 ```text
-5 5
-1 2 N LMLMLMLMM
-3 3 E MMRMMRMRRM
+20 20
+0 5 N LMLMLMLMM
+5 0 S MMRMMRMRRM
+```
+
+### `drones_client.txt` (Mode Client/Serveur)
+
+- Première ligne : largeur hauteur
+- Deuxième ligne : nombre de drones
+- Lignes suivantes : une définition de drone par ligne
+
+Exemple :
+
+```text
+20 20
+2
+0 5 N LMLMLMLMM
+5 0 S MMRMMRMRRM
 ```
 
 Chaque ligne de drone contient :
@@ -84,7 +99,7 @@ Chaque ligne de drone contient :
 - `x` : position X initiale
 - `y` : position Y initiale
 - `orientation` : direction initiale (`N`, `S`, `E`, `W`)
-- `commands` : suite de commandes (`L`, `R`, `M`)
+- `commands` : suite de commandes (`L`, `R`, `M`, `B`)
 
 ## Tests
 
@@ -100,6 +115,13 @@ Les fichiers de test ajoutés incluent :
 - `src/test/java/com/drone/simulator/DroneTest.java` : validation des commandes et des rotations de drone.
 - `src/test/java/com/drone/simulator/SimulatorMapTest.java` : validation du wrapping, des obstacles et du placement de drones.
 - `src/test/java/com/drone/simulator/concurrent/DroneWorkerTest.java` : validation d'une étape de simulation concurrente.
+
+Des exemples de fichiers de configuration supplémentaires ont également été ajoutés pour tester différents scénarios :
+
+- `test_petit.txt`
+- `test_wrapping.txt`
+- `test_obstacle.txt`
+- `test_wrapping_vertical.txt`
 
 Ces tests permettent de vérifier les comportements des versions Basique, Concurrente et Client/Serveur via leurs composants.
 

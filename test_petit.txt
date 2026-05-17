@@ -1,0 +1,3 @@
+5 5
+0 0 N MMMM
+4 4 S MMMM
